@@ -23,25 +23,19 @@ const age = prompt('What is your age?');
 
 // Log out age | change age type to number from string |
 //log out type of numberAge | 
-console.log('You are ', age, ' years old. This means within our self applied social constrictions....');
+console.log('You are ', age, ' years old. This means:');
 const numberAge = Number(age);
 console.log(typeof numberAge);
 
 // Test number against options to display requested result.
 if (numberAge < 16) {
-    console.log("You can't drive! Or vote! Or Do Anything")
+    console.log("You can't drive.")
 } else if (numberAge > 15 && numberAge < 18) {
-    console.log("You can drive! But can't vote! At least you can go places.");
+    console.log("You can drive but can not vote.");
 } else if (numberAge > 17 && numberAge < 25) {
-    console.log("You can drive adn vote! But can't rent a car... At least you can go places, if you have a car.")
+    console.log("You can vote but not rent a car... ")
 } else if (numberAge > 24) {
-    console.log("You made it!");
-    console.log(" Now you can drive,");
-    console.log(" Now you can vote AND ");
-
-    console.log(" NOW you can rent a car.!!");
-    console.log("Sittin pretty.");
-    console.log("Now go get your dancing shoes!");
+    console.log("You can do pretty much anything.");
 }
 
 // ALL WORKING ABOVE THIS LINE
