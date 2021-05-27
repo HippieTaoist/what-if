@@ -49,3 +49,5 @@ if (numDay === 1) {
     console.log('error')
 
 };
+
+// ALL CODE WORKING ABOVE THIS LINE
