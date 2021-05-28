@@ -37,7 +37,7 @@ const prompt = require('prompt-sync')();
 const weight = prompt("Type your Earth weight, please.");
 const numWeight = Number(weight);
 
-const planet = prompt('Enter your FIGHT PLANET Number.  Your Choices:    [ 1 - Venus ] [ 2 - Mars ] [ 3 - Jupiter ] [ 4 - Saturn ] [ 5 - Uranus ] [ 6 - Neptune ]');
+const planet = prompt('Enter your FIGHT PLANET Number.  Your Choices:    "1 - Venus" " 2 - Mars" "3 - Jupiter" "4 - Saturn" "5 - Uranus" "6 - Neptune"');
 const numPlanet = Number(planet);
 
 if (numPlanet === 1) {
@@ -54,4 +54,4 @@ if (numPlanet === 1) {
     console.log(numWeight * 1.23, ' is your NEPTUNE WEIGHT')
 } else if (numPlanet > 6) {
     console.log('You are fighting out of this Solar System... Reel it in buddy.')
-}
+};
