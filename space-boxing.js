@@ -53,4 +53,5 @@ if (numPlanet === 1) {
 } else if (numPlanet === 6) {
     console.log(numWeight * 1.23, ' is your NEPTUNE WEIGHT')
 } else if (numPlanet > 6) {
-    console.log('You are fighting out of this Solar System... Reel it in buddy.');
+    console.log('You are fighting out of this Solar System... Reel it in buddy.')
+}
