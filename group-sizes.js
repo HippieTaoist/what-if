@@ -10,7 +10,7 @@
 const prompt = require('prompt-sync')();
 
 //get class size from user
-const classSize = prompt("Of the choices 15, 16, or 17 What is your class size? ");
+const classSize = prompt("What is your class size? ");
 
 //change type from sting to number
 const numClassSize = Number(classSize);
@@ -18,9 +18,10 @@ const numClassSize = Number(classSize);
 //apply amount of group size 3's you can have
 const groupSize3 = numClassSize / 3;
 
+//transfer remainder to be tested as a whole number
 const wholeRemain = numClassSize - (Math.floor(groupSize3) * 3)
 
-console.log(wholeRemain)
+//Tests size of class outputs defined by group numbers.
 if (wholeRemain === 2) {
     console.log(Math.floor(groupSize3), " groups of 3")
     console.log("One Group of 2")
@@ -28,10 +29,7 @@ if (wholeRemain === 2) {
     console.log(Math.floor(groupSize3), ' groups of 3')
     console.log("2 Groups of 2")
 
+} else if (wholeRemain === 0) {
+    console.log(Math.floor(groupSize3), ' groups of 3')
+    console.log("0 Groups of 2")
 }
-
-const groupSize2 = (groupSize3 % 3) / 2;
-
-if (groupSize2)
-    console.log(groupSize3);
-console.log(groupSize2);
