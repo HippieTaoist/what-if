@@ -33,3 +33,5 @@ if (wholeRemain === 2) {
     console.log(Math.floor(groupSize3), ' groups of 3')
     console.log("0 Groups of 2")
 }
+
+// All Works Above This Code
