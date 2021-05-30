@@ -19,4 +19,14 @@ const prompt = require('prompt-sync')();
 const bizzFuzz = prompt("Enter the number you have in you head... RIGHT NOW! GO!");
 
 const numBizzFuzz = Number(bizzFuzz)
-if ()
+if (((numBizzFuzz % 3 === 0) && (numBizzFuzz % 5 == 0))) {
+    console.log("fizzbuzz")
+} else if (numBizzFuzz % 3 === 0) {
+    console.log('fizz')
+} else if (numBizzFuzz % 5 === 0) {
+    console.log('buzz')
+} else {
+    console.log("This number is not divisible by 3 or 5. What now... ")
+};
+
+// code runs smooth and as planned about this line
