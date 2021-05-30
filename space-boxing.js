@@ -56,4 +56,4 @@ if (numPlanet === 1) {
     console.log('You are fighting out of this Solar System... Reel it in buddy.')
 };
 
-// still have issues with copy print of question 2 when pressing numbers before pressing enter key
+// still have issues with copy print of question 2 when pressing numbers  before pressing enter key
